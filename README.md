@@ -1,26 +1,15 @@
-# The Consistency Tax: A Unifying Framework for Epistemic Thermodynamics
+```markdown
+# Consistency Tax — One-Equation Law
 
-## Quick Start
-- **For skeptics**: Read [CRITICAL_EVALUATION.md] - find the flaws
-- **For validators**: Run [experiments/] - replicate our results
-- **For collaborators**: See [CONTRIBUTING.md] - join the project
+This repository contains the LaTeX source for the 1-page paper:
+"One-Equation Law for reality-aligned agents: minimize Consistency Tax CT(P;P*) = λ·D_KL(P||P*) under an ethics gate."
 
-## The Claim
-Any system maintaining divergence between reality, internal models, and communications pays a thermodynamic cost:
+What the repo does:
+- Builds a PDF via GitHub Actions (see .github/workflows/build-pdf.yml).
+- Provides CITATION.cff to make the paper citable.
+- Public, forkable, and ready for archival (e.g., Zenodo) or DOI minting.
 
-CT = λ · D_KL(P ∥ P*)
-
-This is not metaphor. It's measurable physics.
-
-## Status: Seeking Independent Validation
-- ⚠️ Preliminary evidence: Suggestive but not definitive
-- ✅ Testable predictions: See [PREDICTIONS.md]
-- 🔬 Validation program: See [ROADMAP.md]
-  
-## License
-This repository is licensed under the Consistency Tax — Open Attribution License (CT-OAL v1.0).
-It is free for all uses, including commercial, provided you keep attribution (see NOTICE)
-and indicate changes. Rights are perpetual and irrevocable across all repo versions.
-
-See LICENSE (https://github.com/TrifleNo191/consistency-tax-law/blob/main/LICENSE) for the full text 
-and CITATION.cff (https://github.com/TrifleNo191/consistency-tax-law/blob/main/CITATION.cff) for a copy-paste citation.
+To build locally:
+```bash
+latexmk -pdf main.tex
+```
