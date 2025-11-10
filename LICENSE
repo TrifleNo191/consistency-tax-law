@@ -1,69 +1,21 @@
-Consistency Tax — Open Attribution License (CT-OAL) v1.0
-SPDX-ID: LicenseRef-CT-OAL-1.0
+MIT License
 
-Copyright (c) 2025 Andraž Ðurič
+Copyright (c) 2025 TrifleNo191
 
-0. Definitions
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-“Work” means this repository and all files it contains, across all commits published by the Licensor, including modifications the Licensor later adds.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-“Licensor” means the copyright holder named above.
-
-“You” means the licensee exercising rights under this license.
-
-“Notice” means the attribution text provided by the Licensor (see “Attribution/NOTICE” below).
-
-“Adapted Material” means material derived from or based upon the Work.
-
-1. Grant of rights
-
-The Licensor grants You a worldwide, royalty-free, non-exclusive, perpetual and irrevocable license to use, copy, reproduce, adapt, modify, create, perform, display, publish, distribute, relicense, and to make or sell products or services based on the Work, for any purpose, including commercial purposes.
-
-2. Attribution (citation) requirement
-
-When You share the Work or Adapted Material publicly (including in products, papers, websites, services, datasets, or code), You must:
-
-Give appropriate credit by including the Notice (author name, repository name, and a link to the source if feasible).
-
-Indicate if changes were made (e.g., “Modified on 2025-11-10”).
-
-Keep any existing copyright, license, and Notice text with any copies or substantial portions of the Work.
-
-Avoid implying endorsement by the Licensor.
-
-Attribution must be reasonable to the medium (e.g., in a UI “About” screen, documentation, README, footer, or paper references section). For non-interactive use (e.g., data pipelines), keep the Notice in accompanying documentation or metadata.
-
-3. No additional restrictions
-
-You may not impose legal terms or technological measures (including DRM) that legally restrict others from doing anything this license permits.
-
-4. Patent grant (with protective termination)
-
-To the extent the Licensor may hold patent claims necessarily infringed by exercising the rights granted here, the Licensor grants You a worldwide, royalty-free, non-exclusive, perpetual, irrevocable patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer implementations of the Work.
-Termination: This patent license terminates automatically if You (or an entity you control) file or maintain a patent suit alleging that the Work, or a contribution to it by the Licensor, infringes a patent.
-
-5. Scope across time (not temporally locked)
-
-This license applies to all files in this repository authored by the Licensor, across all versions and commits past, present, and future that the Licensor publishes, unless a specific file states otherwise. Changing or removing this license later does not revoke rights already granted for any existing version or commit.
-
-6. Trademarks
-
-This license does not grant rights to use the Licensor’s trademarks, service marks, or logos, except for nominative use necessary for attribution.
-
-7. Warranty disclaimer
-
-THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
-
-8. Limitation of liability
-
-IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
-
-9. Severability
-
-If any provision of this license is unenforceable, the remaining provisions remain in full effect.
-
-Attribution / NOTICE
-bash:
-Consistency Tax Law — Open Attribution License (CT-OAL v1.0)
-© 2025 Andraž Ðurič — https://github.com/TrifleNo191/consistency-tax-law
-Changes: (list any if applicable)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
