@@ -22,4 +22,5 @@ This repository is licensed under the Consistency Tax — Open Attribution Licen
 It is free for all uses, including commercial, provided you keep attribution (see NOTICE)
 and indicate changes. Rights are perpetual and irrevocable across all repo versions.
 
-See LICENSE for the full text and CITATION.cff for a copy-paste citation.
+See LICENSE (https://github.com/TrifleNo191/consistency-tax-law/blob/main/LICENSE) for the full text 
+and CITATION.cff (https://github.com/TrifleNo191/consistency-tax-law/blob/main/CITATION.cff) for a copy-paste citation.
