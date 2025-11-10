@@ -1,0 +1,21 @@
+name: Build LaTeX PDF
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX to PDF
+        uses: latex-actions/latexmk@v1
+        with:
+          root_file: main.tex
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: consistency-tax-law-pdf
+          path: main.pdf
