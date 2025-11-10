@@ -16,6 +16,10 @@ This is not metaphor. It's measurable physics.
 - ⚠️ Preliminary evidence: Suggestive but not definitive
 - ✅ Testable predictions: See [PREDICTIONS.md]
 - 🔬 Validation program: See [ROADMAP.md]
+  
+## License
+This repository is licensed under the Consistency Tax — Open Attribution License (CT-OAL v1.0).
+It is free for all uses, including commercial, provided you keep attribution (see NOTICE)
+and indicate changes. Rights are perpetual and irrevocable across all repo versions.
 
-
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0007--2961--9770-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0007-2961-9770)
+See LICENSE for the full text and CITATION.cff for a copy-paste citation.
