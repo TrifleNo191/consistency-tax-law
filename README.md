@@ -16,3 +16,6 @@ This is not metaphor. It's measurable physics.
 - ⚠️ Preliminary evidence: Suggestive but not definitive
 - ✅ Testable predictions: See [PREDICTIONS.md]
 - 🔬 Validation program: See [ROADMAP.md]
+
+
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0007--2961--9770-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0007-2961-9770)
