@@ -1,20 +1,13 @@
 cff-version: 1.2.0
-title: "The One-Equation Law for Reality-Aligned Agents"
-message: "If you use this work, please cite this repository."
-type: software
+message: "If you use this work, please cite it."
+title: "One-Equation Law for reality-aligned agents: Consistency Tax"
+version: "v0.1.0"
 authors:
-  - family-names: Đurič
-    given-names: Andraž
-    orcid: https://orcid.org/0009-0007-2961-9770
-  - family-names: GPT-5 Thinking
-    given-names: (contributor)
-version: "1.0.0"
+  - family-names: "TrifleNo191"
+    given-names: "Author"
 date-released: "2025-11-10"
-preferred-citation:
-  type: article
-  authors:
-    - family-names: Đurič
-      given-names: Andraž
-  title: "The One-Equation Law for Reality-Aligned Agents"
-  journal: "Open preprint"
-  year: 2025
+url: "https://github.com/TrifleNo191/consistency-tax-law"
+keywords:
+  - "consistency tax"
+  - "KL divergence"
+  - "agent alignment"
