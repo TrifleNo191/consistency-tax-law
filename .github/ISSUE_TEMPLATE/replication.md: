@@ -1,0 +1,19 @@
+---
+name: Replication Report
+about: Share results from replicating experiments
+---
+
+## Experiment Replicated
+[LLM deception / Simulation / etc.]
+
+## Results
+- Match original: [Yes/No]
+- Deviations: [Describe]
+- Data: [Link to results]
+
+## Environment
+- Model: [e.g., GPT-4, Claude 3]
+- Parameters: [Temperature, etc.]
+- Date: [YYYY-MM-DD]
+```
+
