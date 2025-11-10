@@ -1,0 +1,41 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,geometry}
+\geometry{margin=1in}
+\title{The One-Equation Law for Reality-Aligned Agents}
+\author{Andraž Đurič \and GPT-5 Thinking}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-1.2em}
+
+\noindent\textbf{Core law (single equation).}
+\begin{equation}
+\boxed{
+\min_{P \in \mathcal{F}} \; \mathrm{CT}(P;P^\star)
+\quad\text{with}\quad
+\mathrm{CT}(P;P^\star)=\lambda\,D_{\mathrm{KL}}\!\big(P(W,M,S,G)\,\Vert\,P^\star(W,M,S,G)\big)
+}
+\end{equation}
+\noindent\(W\)=world, \(M\)=models, \(S\)=signals/actions, \(G\)=objectives. Canonical scale \(\lambda=k_B T\ln 2\).
+Ethical feasibility: \(\mathcal{F}=\{P:\mathbb{E}_P[H_{\text{severe}}]\le \varepsilon\}\).
+
+\medskip\noindent\textbf{Design rule.}
+Treat any controllable increase in CT as forbidden inefficiency, except when required to satisfy the ethical constraint.
+
+\medskip\noindent\textbf{Invariants.}
+Non-negativity (\(\mathrm{CT}\ge0\), equality iff \(P=P^\star\)); additivity over independent subsystems; monotone decrease under truthful refinement toward \(P^\star\); uniqueness (KL is the canonical functional under standard axioms).
+
+\medskip\noindent\textbf{Operational loop.}
+Maintain a versioned reference \(P^\star\) from evidence; drive the induced \(P\) toward \(P^\star\) within \(\mathcal{F}\); publish diffs and CT-proxy metrics (log-loss gaps, calibration, constraint violations).
+
+\medskip\noindent\textbf{Falsifiable implications.}
+(L) Corrections of inconsistency cost \(\ge \lambda\,\Delta D_{\mathrm{KL}}\).
+(T) Transparency/andon-like stops reduce variance and tail risk at fixed resources.
+
+\medskip\noindent\textbf{Scope.}
+Applies to humans, software agents, and institutions. Minimal requirement: auditable \(P^\star\), measurable CT proxies, explicit ethics gate.
+
+\end{document}
