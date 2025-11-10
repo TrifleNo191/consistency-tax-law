@@ -1,18 +1,15 @@
 ```markdown
-# Consistency Tax — Toy POMDP simulations
+# Consistency Tax — One-Equation Law
 
-This repository contains toy POMDP simulations to empirically explore CT = λ·D_KL(P || P*).
+This repository contains the LaTeX source for the 1-page paper:
+"One-Equation Law for reality-aligned agents: minimize Consistency Tax CT(P;P*) = λ·D_KL(P||P*) under an ethics gate."
 
-Quickstart:
-- Install requirements: pip install -r requirements.txt
-- Run tests: pytest
+What the repo does:
+- Builds a PDF via GitHub Actions (see .github/workflows/build-pdf.yml).
+- Provides CITATION.cff to make the paper citable.
+- Public, forkable, and ready for archival (e.g., Zenodo) or DOI minting.
 
-Goals:
-- Provide reproducible simulation code and tests.
-- Link to the paper repo and show how experiments reproduce the paper's claims.
-
-Recommended next steps:
-- Add a stable entrypoint script (e.g., run_sim.py) that saves deterministic outputs.
-- Add example pytest tests that validate small properties of simulation outputs.
-- Consider adding a reproducibility badge that links the paper repo and experiment repo.
+To build locally:
+```bash
+latexmk -pdf main.tex
 ```
