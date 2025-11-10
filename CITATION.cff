@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Đurič
     given-names: Andraž
-    orcid: [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--2961--9770-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0007-2961-9770)
+    orcid: https://orcid.org/0009-0007-2961-9770
   - family-names: GPT-5 Thinking
     given-names: (contributor)
 version: "1.0.0"
