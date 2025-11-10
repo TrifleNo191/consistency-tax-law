@@ -1,0 +1,37 @@
+Repository Structure
+```
+consistency-tax-law/
+├── README.md                 # Enhanced overview
+├── paper.tex / paper.pdf     # 1-page canonical spec
+├── CITATION.cff
+├── LICENSE                   # CC BY 4.0 or similar
+│
+├── docs/
+│   ├── PREDICTIONS.md
+│   ├── EXPERIMENTS.md
+│   ├── ROADMAP.md
+│   ├── ETHICS.md
+│   ├── FAQ.md
+│   └── magnum_opus.md       # The 22K word comprehensive document
+│
+├── code/
+│   ├── simulation/
+│   │   └── ct_simulation.py
+│   ├── llm_experiments/
+│   │   └── deception_benchmark.py
+│   └── analysis/
+│       └── visualization.ipynb
+│
+├── evidence/
+│   ├── preliminary/
+│   └── replication/
+│
+├── .github/
+│   ├── workflows/
+│   │   └── build_pdf.yml   # CI for PDF
+│   └── ISSUE_TEMPLATE/
+│       ├── replication.md
+│       ├── critique.md
+│       └── extension.md
+│
+└── CONTRIBUTING.md
